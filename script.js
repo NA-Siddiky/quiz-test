@@ -22,12 +22,12 @@ fetch(url)
 // })
 
 
-// const searchQuiz = () =>{
-//     fetch(url)
-//     .then(response => response.json())
-//     .then(data => console.log(data));
+const searchQuiz = () =>{
+    fetch(url)
+    .then(response => response.json())
+    .then(data => console.log(data));
 
 
 
-//     console.log("clicked");
-// }
+    console.log("clicked");
+}
