@@ -40,7 +40,7 @@ const getData = (quiz) => {
 
         //show Options
         const getQuizOptions = element.incorrect_answers;
-        const randomOptions =Math.floor(math.random() * 4);
+        const randomOptions =Math.floor(Math.random() * 4);
         getQuizOptions.splice(randomOptions, 0, element.correct_answer);
         // console.log(getQuizOptions);
 
